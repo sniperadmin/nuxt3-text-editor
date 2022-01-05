@@ -1,0 +1,19 @@
+{
+  "private": true,
+  "scripts": {
+    "dev": "nuxi dev",
+    "build": "nuxi build",
+    "start": "node .output/server/index.mjs"
+  },
+  "devDependencies": {
+    "nuxt3": "latest",
+    "primeflex": "2.0.0",
+    "primeicons": "^5.0.0",
+    "primevue": "3.10.0",
+    "unsplash-js": "^7.0.15"
+  },
+  "dependencies": {
+    "nuxt-use-motion": "^2.0.0-beta.11",
+    "vue3-highlightjs": "^1.0.5"
+  }
+}
