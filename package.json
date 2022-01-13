@@ -3,13 +3,17 @@
   "scripts": {
     "dev": "nuxi dev",
     "build": "nuxi build",
-    "start": "node .output/server/index.mjs"
+    "start": "node .output/server/index.mjs",
+    "storybook": "start-storybook -p 6006"
   },
   "devDependencies": {
+    "@storybook/addon-essentials": "^6.4.12",
+    "@storybook/vue3": "^6.4.12",
     "nuxt3": "latest",
     "primeflex": "2.0.0",
     "primeicons": "^5.0.0",
     "primevue": "3.10.0",
+    "storybook-builder-vite": "^0.1.13",
     "unsplash-js": "^7.0.15"
   },
   "dependencies": {
